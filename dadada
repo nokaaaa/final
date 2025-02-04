@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Project</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My HTML Project</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="section1">
+            <h2>Interesting Facts</h2>
+            <p>Here are some interesting facts about my topic.</p>
+            <ul>
+                <li>Fact 1</li>
+                <li>Fact 2</li>
+                <li>Fact 3</li>
+            </ul>
+        </section>
+        
+        <section id="section2">
+            <h2>Gallery</h2>
+            <img src="image1.jpg" alt="A beautiful landscape">
+            <img src="image2.jpg" alt="A modern city skyline">
+            <img src="image3.jpg" alt="A close-up of a colorful flower">
+        </section>
+        
+        <section id="section3">
+            <h2>Learn More</h2>
+            <p>For more information, visit <a href="https://www.example.com" target="_blank">this website</a>.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My HTML Project</p>
+    </footer>
+</body>
+</html>
